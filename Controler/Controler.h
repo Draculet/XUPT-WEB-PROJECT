@@ -20,9 +20,19 @@ class Controler
         :pool_(new DbConnPool("xuptcd_db"))
     {
         pool_->connect(10);
+        /* url: http://49.233.166.221:8832/xuptcd/doctor/insert */
+        /* 请求post json例子: {"doctor_name":"医生","doctor_gender":2,"department_name":"department","doctor_title":"医生头衔","doctor_photo":"www.url.com","doctor_tel":"13543456333","doctor_pwd":"pass","doctor_info":"医生信息","doctor_quota":3} */
+        /* 响应 {"errCode":0,"errMsg":"Success"}{"errCode":1,"errMsg":"Insert Failed"}{"errCode":2,"errMsg":"Error Request"}*/
         opers_["/xuptcd/doctor/insert"] = bind(DoctorOper::insert, placeholders::_1, placeholders::_2);
+        /* url: http://49.233.166.221:8832/xuptcd/doctor/modify */
+        /* 请求post json例子: {"doctor_name":"医生","doctor_gender":2,"department_name":"department","doctor_title":"医生头衔","doctor_photo":"www.url.com","doctor_tel":"13543456333","doctor_pwd":"pass","doctor_info":"医生信息","doctor_quota":3} */
+        /* 响应 {"errCode":0,"errMsg":"Success"}{"errCode":1,"errMsg":"Insert Failed"}{"errCode":2,"errMsg":"Error Request"}*/
         opers_["/xuptcd/doctor/modify"] = bind(DoctorOper::modify, placeholders::_1, placeholders::_2);
+        /* url: http://49.233.166.221:8832/xuptcd/doctor/del */
+        /* 请求post json例子: {"doctor_id":"10006"} */
+        /* 响应 {"errCode":0,"errMsg":"Success"}{"errCode":1,"errMsg":"Insert Failed"}{"errCode":2,"errMsg":"Error Request"}*/
         opers_["/xuptcd/doctor/del"] = bind(DoctorOper::del, placeholders::_1, placeholders::_2);
+        //TODO ...
         opers_["/xuptcd/doctor/selectDepart"] = bind(DoctorOper::selectDepart, placeholders::_1, placeholders::_2);
         opers_["/xuptcd/notice/insert"] = bind(NoticeOper::insert, placeholders::_1, placeholders::_2);
         opers_["/xuptcd/notice/modify"] = bind(NoticeOper::modify, placeholders::_1, placeholders::_2);
