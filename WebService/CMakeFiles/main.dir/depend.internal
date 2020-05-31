@@ -8,9 +8,15 @@ CMakeFiles/main.dir/XuptServer.cc.o
  /home/yc/XUPT-WEB-PROJECT/CJsonObject/CJsonObject.hpp
  /home/yc/XUPT-WEB-PROJECT/CJsonObject/cJSON.h
  /home/yc/XUPT-WEB-PROJECT/Controler/Controler.h
+ /home/yc/XUPT-WEB-PROJECT/Controler/DepartmentOper.h
  /home/yc/XUPT-WEB-PROJECT/Controler/DoctorOper.h
+ /home/yc/XUPT-WEB-PROJECT/Controler/Doctor_UncheckedOper.h
  /home/yc/XUPT-WEB-PROJECT/Controler/IOper.h
+ /home/yc/XUPT-WEB-PROJECT/Controler/NoticeOper.h
+ /home/yc/XUPT-WEB-PROJECT/DAO/DepartmentDAO.h
  /home/yc/XUPT-WEB-PROJECT/DAO/DoctorDAO.h
+ /home/yc/XUPT-WEB-PROJECT/DAO/Doctor_UncheckedDAO.h
+ /home/yc/XUPT-WEB-PROJECT/DAO/NoticeDAO.h
  /home/yc/XUPT-WEB-PROJECT/DBConnPool/DBConnPool.h
  /home/yc/XUPT-WEB-PROJECT/FastNet/include/Acceptor.h
  /home/yc/XUPT-WEB-PROJECT/FastNet/include/Buffer.h
@@ -28,7 +34,11 @@ CMakeFiles/main.dir/XuptServer.cc.o
  /home/yc/XUPT-WEB-PROJECT/FastNet/include/Thread.h
  /home/yc/XUPT-WEB-PROJECT/FastNet/include/ThreadLoop.h
  /home/yc/XUPT-WEB-PROJECT/FastNet/include/ThreadLoopPool.h
+ /home/yc/XUPT-WEB-PROJECT/Model/Department.h
  /home/yc/XUPT-WEB-PROJECT/Model/Doctor.h
+ /home/yc/XUPT-WEB-PROJECT/Model/Doctor_Unchecked.h
+ /home/yc/XUPT-WEB-PROJECT/Model/Notice.h
+ /home/yc/XUPT-WEB-PROJECT/Util/itos.h
  /home/yc/XUPT-WEB-PROJECT/WebService/XuptServer.cc
  /home/yc/XUPT-WEB-PROJECT/WebService/headerParse/requestParser.h
 CMakeFiles/main.dir/headerParse/requestParser.cc.o

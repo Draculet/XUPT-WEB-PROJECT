@@ -7,9 +7,15 @@ CMakeFiles/main.dir/home/yc/XUPT-WEB-PROJECT/CJsonObject/cJSON.c.o: /home/yc/XUP
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/CJsonObject/CJsonObject.hpp
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/CJsonObject/cJSON.h
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Controler/Controler.h
+CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Controler/DepartmentOper.h
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Controler/DoctorOper.h
+CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Controler/Doctor_UncheckedOper.h
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Controler/IOper.h
+CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Controler/NoticeOper.h
+CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/DAO/DepartmentDAO.h
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/DAO/DoctorDAO.h
+CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/DAO/Doctor_UncheckedDAO.h
+CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/DAO/NoticeDAO.h
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/DBConnPool/DBConnPool.h
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/FastNet/include/Acceptor.h
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/FastNet/include/Buffer.h
@@ -27,7 +33,11 @@ CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/FastNet/include/S
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/FastNet/include/Thread.h
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/FastNet/include/ThreadLoop.h
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/FastNet/include/ThreadLoopPool.h
+CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Model/Department.h
 CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Model/Doctor.h
+CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Model/Doctor_Unchecked.h
+CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Model/Notice.h
+CMakeFiles/main.dir/XuptServer.cc.o: /home/yc/XUPT-WEB-PROJECT/Util/itos.h
 CMakeFiles/main.dir/XuptServer.cc.o: XuptServer.cc
 CMakeFiles/main.dir/XuptServer.cc.o: headerParse/requestParser.h
 

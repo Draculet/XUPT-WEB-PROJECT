@@ -4,14 +4,8 @@
 #include "../Model/Doctor.h"
 #include "../DBConnPool/DBConnPool.h"
 #include <vector>
+#include "../Util/itos.h"
 using namespace std;
-
-string itos(int num)
-{
-    char tmp[20] = {0};
-    sprintf(tmp, "%d", num);
-    return string(tmp);
-}
 
 class DoctorDAO // : public Oper<Doctor>
 {

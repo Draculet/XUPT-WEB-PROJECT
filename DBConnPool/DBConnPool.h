@@ -1,3 +1,6 @@
+#ifndef __DBCONN_H__
+#define __DBCONN_H__
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
@@ -122,3 +125,5 @@ class DbConnPool
     int num_;
     string dbname_;
 };
+
+#endif

@@ -4,6 +4,9 @@
 #include "../FastNet/include/Server.h"
 #include "../WebService/headerParse/requestParser.h"
 #include "DoctorOper.h"
+#include "NoticeOper.h"
+#include "DepartmentOper.h"
+#include "Doctor_UncheckedOper.h"
 #include <functional>
 #include <memory>
 
@@ -21,6 +24,19 @@ class Controler
         opers_["/xuptcd/doctor/modify"] = bind(DoctorOper::modify, placeholders::_1, placeholders::_2);
         opers_["/xuptcd/doctor/del"] = bind(DoctorOper::del, placeholders::_1, placeholders::_2);
         opers_["/xuptcd/doctor/selectDepart"] = bind(DoctorOper::selectDepart, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/notice/insert"] = bind(NoticeOper::insert, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/notice/modify"] = bind(NoticeOper::modify, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/notice/del"] = bind(NoticeOper::del, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/notice/select"] = bind(NoticeOper::select, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/department/insert"] = bind(DepartmentOper::insert, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/department/modify"] = bind(DepartmentOper::modify, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/department/del"] = bind(DepartmentOper::del, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/department/select"] = bind(DepartmentOper::select, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/doctor_unchecked/insert"] = bind(Doctor_UncheckedOper::insert, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/doctor_unchecked/modify"] = bind(Doctor_UncheckedOper::modify, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/doctor_unchecked/del"] = bind(Doctor_UncheckedOper::del, placeholders::_1, placeholders::_2);
+        opers_["/xuptcd/doctor_unchecked/selectDepart"] = bind(Doctor_UncheckedOper::selectDepart, placeholders::_1, placeholders::_2);
+
         //...
     }
 

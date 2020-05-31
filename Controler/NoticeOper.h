@@ -1,21 +1,21 @@
-#ifndef ___DOCOPER_H___
-#define ___DOCOPER_H___
+#ifndef ___NOTICEOPER_H___
+#define ___NOTICEOPER_H___
 
 #include "../FastNet/include/Server.h"
 #include "IOper.h"
-#include "../Model/Doctor.h"
+#include "../Model/Notice.h"
 #include "../WebService/headerParse/requestParser.h"
 #include "../CJsonObject/CJsonObject.hpp"
-#include "../DAO/DoctorDAO.h"
+#include "../DAO/NoticeDAO.h"
 
 using namespace std;
 using namespace http;
 using namespace neb;
 
-class DoctorOper // : public Oper<Doctor>
+class NoticeOper 
 {
     public:
-    DoctorOper(){}
+    NoticeOper(){}
 
     static void insert(Request &req, MYSQL *mysql)
     {
@@ -23,28 +23,14 @@ class DoctorOper // : public Oper<Doctor>
         {
             CJsonObject obj( req.getBody() );
             //string doctor_id = obj.Get("doctor_id");
-            string doctor_name;
-            obj.Get("doctor_name", doctor_name);
-            int doctor_gender;
-            obj.Get("doctor_gender", doctor_gender);
-            string department_name;
-            obj.Get("department_name", department_name);
-            string doctor_title;
-            obj.Get("doctor_title", doctor_title);
-            string doctor_photo;
-            obj.Get("doctor_photo", doctor_photo);
-            string doctor_tel;
-            obj.Get("doctor_tel", doctor_tel);
-            string doctor_pwd;
-            obj.Get("doctor_pwd", doctor_pwd);
-            string doctor_info;
-            obj.Get("doctor_info", doctor_info);
-            int doctor_quota;
-            obj.Get("doctor_quota", doctor_quota);
-            Doctor d(doctor_name, doctor_gender, department_name, doctor_title, doctor_photo, doctor_tel,
-                doctor_pwd, doctor_info, doctor_quota);
+            string notice_msg;
+            obj.Get("notice_msg", notice_msg);
+            string notice_pic;
+            obj.Get("notice_pic", notice_pic);
+
+            Notice d(notice_msg, notice_pic);
             string response;
-            if (DoctorDAO::insert(d, mysql))
+            if (NoticeDAO::insert(d, mysql))
             {
                 response = req.getResponse("HTTP/1.1", "201", "Created", "application/json", "{\"errCode\":0,\"errMsg\":\"Success\"}");
             }
@@ -69,11 +55,14 @@ class DoctorOper // : public Oper<Doctor>
         {
             CJsonObject obj( req.getBody() );
             //string doctor_id = obj.Get("doctor_id");
-            int doctor_id;
-            obj.Get("doctor_id", doctor_id);
-            
+            string notice_msg;
+            obj.Get("notice_msg", notice_msg);
+            string notice_pic;
+            obj.Get("notice_pic", notice_pic);
+
+            Notice d(notice_msg, notice_pic);
             string response;
-            if (DoctorDAO::del(doctor_id, mysql))
+            if (NoticeDAO::del(d, mysql))
             {
                 response = req.getResponse("HTTP/1.1", "200", "OK", "application/json", "{\"errCode\":0,\"errMsg\":\"Success\"}");
             }
@@ -95,32 +84,17 @@ class DoctorOper // : public Oper<Doctor>
     {
         if (req.getBody().size() != 0)
         {
+            //string doctor_id = obj.Get("doctor_id");
             CJsonObject obj( req.getBody() );
             //string doctor_id = obj.Get("doctor_id");
-            int doctor_id;
-            obj.Get("doctor_id", doctor_id);
-            string doctor_name;
-            obj.Get("doctor_name", doctor_name);
-            int doctor_gender;
-            obj.Get("doctor_gender", doctor_gender);
-            string department_name;
-            obj.Get("department_name", department_name);
-            string doctor_title;
-            obj.Get("doctor_title", doctor_title);
-            string doctor_photo;
-            obj.Get("doctor_photo", doctor_photo);
-            string doctor_tel;
-            obj.Get("doctor_tel", doctor_tel);
-            string doctor_pwd;
-            obj.Get("doctor_pwd", doctor_pwd);
-            string doctor_info;
-            obj.Get("doctor_info", doctor_info);
-            int doctor_quota;
-            obj.Get("doctor_quota", doctor_quota);
-            Doctor d(doctor_name, doctor_gender, department_name, doctor_title, doctor_photo, doctor_tel,
-                doctor_pwd, doctor_info, doctor_quota);
+            string notice_msg;
+            obj.Get("notice_msg", notice_msg);
+            string notice_pic;
+            obj.Get("notice_pic", notice_pic);
+
+            Notice d(notice_msg, notice_pic);
             string response;
-            if (DoctorDAO::modify(d, mysql))
+            if (NoticeDAO::modify(d, mysql))
             {
                 response = req.getResponse("HTTP/1.1", "200", "OK", "application/json", "{\"errCode\":0,\"errMsg\":\"Success\"}");
             }
@@ -138,18 +112,14 @@ class DoctorOper // : public Oper<Doctor>
             req.setResp(response);
         }
     }
-    static void selectDepart(Request &req, MYSQL *mysql)
+
+    static void select(Request &req, MYSQL *mysql)
     {
-        if (req.getBody().size() != 0)
+        if (req.getBody().size() == 0)
         {
-            CJsonObject obj( req.getBody() );
-            //string doctor_id = obj.Get("doctor_id");
-            string department_name;
-            obj.Get("department_name", department_name);
-            string cond = "department_name = " + string("\'") + department_name + "\'"; 
-            string response;
-            vector<Doctor> docs = DoctorDAO::select(cond, mysql);
+            vector<Notice> docs = NoticeDAO::select("", mysql);
             CJsonObject jObj;
+            string response;
             if (docs.size() != 0)
             {
                 for (int i = 0; i < docs.size(); i++)
@@ -158,17 +128,9 @@ class DoctorOper // : public Oper<Doctor>
                     char index[10];
                     memset(index, 0, sizeof(index));
                     sprintf(index, "%d", i+1);
-                    jObj.AddEmptySubObject("doctor" + string(index));
-                    jObj["doctor" + string(index)].Add("doctor_id", docs[i].getDoctor_id());
-                    jObj["doctor" + string(index)].Add("doctor_name", docs[i].getDoctor_name());
-                    jObj["doctor" + string(index)].Add("doctor_gender", docs[i].getDoctor_gender());
-                    jObj["doctor" + string(index)].Add("department_name", docs[i].getDepartment_name());
-                    jObj["doctor" + string(index)].Add("doctor_title", docs[i].getDoctor_title());
-                    jObj["doctor" + string(index)].Add("doctor_photo", docs[i].getDoctor_photo());
-                    jObj["doctor" + string(index)].Add("doctor_tel", docs[i].getDoctor_tel());
-                    jObj["doctor" + string(index)].Add("doctor_pwd", docs[i].getDoctor_pwd());
-                    jObj["doctor" + string(index)].Add("doctor_info", docs[i].getDoctor_info());
-                    jObj["doctor" + string(index)].Add("doctor_quota", docs[i].getDoctor_quota());
+                    jObj.AddEmptySubObject("notice" + string(index));
+                    jObj["notice" + string(index)].Add("notice_msg", docs[i].getNotice_msg());
+                    jObj["notice" + string(index)].Add("notice_pic", docs[i].getNotice_pic());
                 }
                 //printf("%s\n", jObj.ToString().c_str());
                 response = req.getResponse("HTTP/1.1", "200", "OK", "application/json", jObj.ToString());
