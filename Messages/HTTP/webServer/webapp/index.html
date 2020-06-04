@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>线上候诊室</title>
+   <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.staticfile.org/jquery/2.0.0/jquery.min.js"></script>
+   <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <style>
+       .myModal-body{
+	padding:100px 140px 130px 140px;
+	background-color:white;
+	border-left:1px solid white;
+	border-right:1px solid white;
+    }
+    
+    .myModal-header{
+        padding:66px 60px 66px 60px;
+        background-color:white;
+        border:0px;
+        height:30px;
+    }
+
+    .myModal-footer{
+	background-color:white;
+	border:1px solid white;
+	border-top:none;
+	padding:10px 15px 13px 15px;
+    }
+
+    
+.myModal-input{
+	background-color:white;
+	border:1px solid white;
+}
+
+
+        .background
+        {
+            background:white;
+        }
+    </style>
+</head>
+<body class="background">
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <h1><font color="black">线上候诊室</font></h1>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+   
+    <div role="tabpanel" class="tab-pane" id="messages">
+
+       <!-- <button id="connect" onclick="Connect()">连接</button> -->
+
+        <input type="hidden" id="mess_itemid" value="8832">
+        <input type="hidden" id="mess_time" value="2019-12-13 10:00">
+        <input type="hidden" id="mess_content" value="hello">
+        
+
+
+
+
+        <!-- Modal -->
+         <!-- Modal -->
+         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                <div class="modal-header myModal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h5 class="modal-title" id="myModalLabel" color='red'><font color="red">线上候诊室 请挂号排队保持安静</font></h5>
+                    <h6><input type="text" style="width:100px" id="mess_username" class="form-control" value="患者" placeholder="请输入真实姓名..."></h6>
+                </div>
+                <div class="modal-body myModal-body">
+                    <div id="communication">
+                    </div>
+                </div>
+                <div class="modal-footer myModal-footer">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="input-group">
+                                              <input type="text" id="message" class="form-control myModal-input" placeholder="欢迎咨询讨论">
+                                              <span class="input-group-btn">
+                                                
+                                                <button class="btn " type="button" onclick="Send()">我要咨询</button>
+                                              </span>
+                                            </div><!-- /input-group -->
+                                          </div><!-- /.col-lg-6 -->
+                                        </div><!-- /.row -->
+                </div>
+                </div>
+            </div>
+
+    </div>
+
+
+
+<div style="background:white">
+    <div class="container">
+        
+
+            <div class="col-md-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+
+                          
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                              <div class="item active">
+                                <img src="lun2.jpg" alt="...">
+                                <div class="carousel-caption">
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <!-- Controls -->
+                           
+
+                          </div>  
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="height:70px;">
+</div>
+
+<!--<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-md-offset-0">
+        <div class="thumbnail">
+            <img src="1.jpg" alt="...">
+            <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-md-offset-0">
+        <div class="thumbnail">
+            <img src="1.jpg" alt="...">
+            <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-3 col-md-offset-0">
+            <div class="thumbnail" style="background: white">
+                
+                    
+              </div>
+              
+        </div>
+        <div class="col-sm-6 col-md-3 col-md-offset-0">
+            <img src="google2.jpg" alt="...">
+        </div>
+        <div class="thumbnail" style="background: white">
+        </div>
+        <div class="col-sm-6 col-md-6 col-md-offset-0">
+                <h1>选择候诊室</h1>
+     
+            <p><a class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal" onclick="Connect(1)" role="button">进入一号候诊室</a>
+                &nbsp;&nbsp;
+            <a class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal" onclick="Connect(2)" role="button">进入二号候诊室</a>
+            &nbsp;&nbsp;
+            <a class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal" onclick="Connect(3)" role="button">进入三号候诊室</a></p>
+                &nbsp;&nbsp;
+                <p><a class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal" onclick="Connect(4)" role="button">进入四号候诊室</a>
+                    &nbsp;&nbsp;
+            <a class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal" onclick="Connect(5)" role="button">进入五号候诊室</a>
+                &nbsp;&nbsp;
+            <a class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal" onclick="Connect(6)" role="button">进入六号候诊室</a></p>
+            &nbsp;&nbsp;
+            <p><a class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal" onclick="Connect(7)" role="button">进入七号候诊室</a>
+                &nbsp;&nbsp;
+            <a class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal" onclick="Connect(8)" role="button">进入八号候诊室</a>
+            &nbsp;&nbsp;
+            <a class="btn btn-danger btn-md" data-toggle="modal" data-target="#myModal" onclick="Connect(9)" role="button">进入九号候诊室</a></p>
+      
+  </div>
+
+<div style="float:left;">
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
+</div>
+
+<script>
+    var add0 = function(m)
+    {
+        return m < 10 ? '0' + m: m
+    }
+
+    function getTime()
+    {
+        var timestamp = Date.parse(new Date());
+        var time = new Date(timestamp);
+        var year = time.getFullYear();
+        var month = time.getMonth() + 1;
+        var day = time.getDate();
+        var hour = time.getHours();
+        var minute = time.getMinutes();
+        var second = time.getSeconds();
+        return  year+'-'+this.add0(month)+'-'+ this.add0(day)+' '+this.add0(hour)+':'+this.add0(minute)+':'+this.add0(second)  
+    }
+    
+    /*document.ondblclick = function()
+    {
+        var mess_id = "1";
+        var mess_itemid = document.getElementById("mess_itemid").value;
+        var mess_time = getTime();
+        var mess_content = document.getElementById("mess_content").value;
+        var mess_username = document.getElementById("mess_username").value;
+        var zero = 0;
+        zero = String.fromCharCode(zero);
+        var res = mess_id + zero + mess_itemid + zero + mess_time + zero + mess_content + zero + mess_username;
+        var ressplit = res.split(zero);
+        alert(ressplit);
+    }*/
+
+    /*document.ondblclick = function()
+    {
+        var str = '<p><ins>From User@hello: 2019.12.12 19:00</ins></p>';
+        var str2 = '<p class="lead">hello</p>';
+        document.getElementById("communication").innerHTML += str;
+        document.getElementById("communication").innerHTML += str2;
+    }*/
+    var socket = null;
+    var curId = 0;
+    function Connect(num)
+    {  
+        if (socket == null)
+        {
+            try{
+                //alert('ws://49.233.166.221:9981/' + num);
+                curId = num;
+                socket=new WebSocket('ws://49.233.166.221:9981/' + num);
+            }catch(e){  
+                alert('error');
+                return;
+            }
+            socket.onopen = sOpen;
+            socket.onerror = sError;
+            socket.onmessage= sMessage;
+            socket.onclose= sClose;
+        }
+        else
+        {
+            document.getElementById("communication").innerHTML = "";
+            socket.close();
+            socket = null;
+            Connect(num);
+        }
+    }
+
+    function sOpen()
+    {
+        alert('进入成功!');
+    }
+    function sError(e)
+    {
+        alert("发生错误，请尝试重新进入或者联系管理员");
+    }
+
+
+    function sMessage(msg)
+    {  
+        //alert('server says:' + msg.data);
+        /*var mess_id = "1";
+        var mess_itemid = document.getElementById("mess_itemid").value;
+        var mess_time = getTime();
+        var mess_content = document.getElementById("mess_content").value;
+        var mess_username = document.getElementById("mess_username").value;
+        var zero = 0;
+        zero = String.fromCharCode(zero);
+        var res = mess_id + zero + mess_itemid + zero + mess_time + zero + mess_content + zero + mess_username;
+        */
+        var msg = msg.data;
+        var zero = 0;
+        zero = String.fromCharCode(zero);
+        var msgs = msg.split(zero);
+        var mess_id = msgs[0];
+        var mess_itemid = msgs[1];
+        var mess_time = msgs[2];
+        var mess_content = msgs[3];
+        var mess_username = msgs[4];
+
+        var mess1 = '<p>患者&nbsp;&nbsp;' + mess_username + '在&nbsp;&nbsp;' + mess_time + '&nbsp;&nbsp;说:&nbsp;&nbsp;</p>';
+        var mess2 = '<p class="lead">' + mess_content + '</p>';
+        document.getElementById("communication").innerHTML += mess1;
+        document.getElementById("communication").innerHTML += mess2;
+        
+    }
+
+
+
+    function sClose(e){
+        alert("中断,请重新进入");
+    }  
+    function Send()
+    {
+        var mess_content = document.getElementById("message").value;
+        var mess_id = 0;
+        var mess_time = getTime();
+        var mess_itemid = curId;
+        var mess_username = document.getElementById("mess_username").value;
+        var zero = 0;
+        zero = String.fromCharCode(zero);
+        var res = mess_id + zero + mess_itemid + zero + mess_time + zero + mess_content + zero + mess_username;
+
+        var mess1 = '<p>患者&nbsp;&nbsp;' + mess_username + '在&nbsp;&nbsp;' + mess_time + '&nbsp;说</ins></p>';
+        var mess2 = '<p class="lead">' + mess_content + '</p>';
+        //document.getElementById("communication").innerHTML += mess1;
+        //document.getElementById("communication").innerHTML += mess2;
+
+        //alert(res.split(zero));
+        socket.send(res);
+        document.getElementById("message").value = "";
+    }
+
+    function Close(){
+        socket.close();
+    }
+
+
+    function checkChoice()
+    {
+        var radios = document.getElementsByName("color");
+        var i;
+        for (i = 0; i < radios.length; i++)
+        {
+            if (radios[i].checked)
+            {
+                break;
+            }
+        }
+        if (i == radios.length)
+        {
+            document.getElementById("errflag").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\">请选择颜色</span>";
+            return false;
+        }
+        var radios = document.getElementsByName("version");
+        for (i = 0; i < radios.length; i++)
+        {
+            if (radios[i].checked)
+            {
+                break;
+            }
+        }
+        if (i == radios.length)
+        {
+            document.getElementById("errflag").innerHTML = "&nbsp;&nbsp;&nbsp;&nbsp;<span class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\">请选择版本</span>";
+            return false;
+        }
+    }
+</script>
+
+
+</body>
+</html>

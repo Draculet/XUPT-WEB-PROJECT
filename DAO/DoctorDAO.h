@@ -47,8 +47,10 @@ class DoctorDAO // : public Oper<Doctor>
     {
         if (del(d.getDoctor_id(), conn))
         {
-            insert(d, conn);
-            return true;
+            if (insert(d, conn))
+                return true;
+            else
+                return false;
         }
         return false;
     }

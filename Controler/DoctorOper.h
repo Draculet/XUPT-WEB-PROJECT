@@ -117,7 +117,7 @@ class DoctorOper // : public Oper<Doctor>
             obj.Get("doctor_info", doctor_info);
             int doctor_quota;
             obj.Get("doctor_quota", doctor_quota);
-            Doctor d(doctor_name, doctor_gender, department_name, doctor_title, doctor_photo, doctor_tel,
+            Doctor d(doctor_id, doctor_name, doctor_gender, department_name, doctor_title, doctor_photo, doctor_tel,
                 doctor_pwd, doctor_info, doctor_quota);
             string response;
             if (DoctorDAO::modify(d, mysql))
@@ -152,23 +152,38 @@ class DoctorOper // : public Oper<Doctor>
             CJsonObject jObj;
             if (docs.size() != 0)
             {
+                jObj.AddEmptySubArray("doctor");
                 for (int i = 0; i < docs.size(); i++)
                 {
                     printf("*debug4\n");
                     char index[10];
                     memset(index, 0, sizeof(index));
                     sprintf(index, "%d", i+1);
-                    jObj.AddEmptySubObject("doctor" + string(index));
-                    jObj["doctor" + string(index)].Add("doctor_id", docs[i].getDoctor_id());
-                    jObj["doctor" + string(index)].Add("doctor_name", docs[i].getDoctor_name());
-                    jObj["doctor" + string(index)].Add("doctor_gender", docs[i].getDoctor_gender());
-                    jObj["doctor" + string(index)].Add("department_name", docs[i].getDepartment_name());
-                    jObj["doctor" + string(index)].Add("doctor_title", docs[i].getDoctor_title());
-                    jObj["doctor" + string(index)].Add("doctor_photo", docs[i].getDoctor_photo());
-                    jObj["doctor" + string(index)].Add("doctor_tel", docs[i].getDoctor_tel());
-                    jObj["doctor" + string(index)].Add("doctor_pwd", docs[i].getDoctor_pwd());
-                    jObj["doctor" + string(index)].Add("doctor_info", docs[i].getDoctor_info());
-                    jObj["doctor" + string(index)].Add("doctor_quota", docs[i].getDoctor_quota());
+                    CJsonObject jObj2;
+                    //jObj2.AddEmptySubObject("doctor" + string(index));
+                    jObj2.Add("doctor_id", docs[i].getDoctor_id());
+                    jObj2.Add("doctor_name", docs[i].getDoctor_name());
+                    jObj2.Add("doctor_gender", docs[i].getDoctor_gender());
+                    jObj2.Add("department_name", docs[i].getDepartment_name());
+                    jObj2.Add("doctor_title", docs[i].getDoctor_title());
+                    jObj2.Add("doctor_photo", docs[i].getDoctor_photo());
+                    jObj2.Add("doctor_tel", docs[i].getDoctor_tel());
+                    jObj2.Add("doctor_pwd", docs[i].getDoctor_pwd());
+                    jObj2.Add("doctor_info", docs[i].getDoctor_info());
+                    jObj2.Add("doctor_quota", docs[i].getDoctor_quota());
+
+                    /*jObj2["doctor" + string(index)].Add("doctor_id", docs[i].getDoctor_id());
+                    jObj2["doctor" + string(index)].Add("doctor_name", docs[i].getDoctor_name());
+                    jObj2["doctor" + string(index)].Add("doctor_gender", docs[i].getDoctor_gender());
+                    jObj2["doctor" + string(index)].Add("department_name", docs[i].getDepartment_name());
+                    jObj2["doctor" + string(index)].Add("doctor_title", docs[i].getDoctor_title());
+                    jObj2["doctor" + string(index)].Add("doctor_photo", docs[i].getDoctor_photo());
+                    jObj2["doctor" + string(index)].Add("doctor_tel", docs[i].getDoctor_tel());
+                    jObj2["doctor" + string(index)].Add("doctor_pwd", docs[i].getDoctor_pwd());
+                    jObj2["doctor" + string(index)].Add("doctor_info", docs[i].getDoctor_info());
+                    jObj2["doctor" + string(index)].Add("doctor_quota", docs[i].getDoctor_quota());
+                    */
+                    jObj["doctor"].Add(jObj2);
                 }
                 //printf("%s\n", jObj.ToString().c_str());
                 response = req.getResponse("HTTP/1.1", "200", "OK", "application/json", jObj.ToString());

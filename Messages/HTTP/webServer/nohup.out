@@ -1,0 +1,3398 @@
+*debug* addchannel 4
+*debug* wakeupchannel add
+*debug* addchannel 5
+*debug* Server Start
+*debug* addchannel 6
+*debug* addchannel 9
+*debug* wakeupchannel add
+*debug* addchannel 10
+*debug* addchannel 12
+*debug* wakeupchannel add
+*debug* addchannel 13
+*debug* addchannel 15
+*debug* wakeupchannel add
+*debug* addchannel 16
+*debug* addchannel 18
+*debug* wakeupchannel add
+*debug* addchannel 19
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 20
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 452
+*debug* Fd 20 readFd ret 452
+解析开始
+解析完成
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 22
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 22
+*debug* write 13588 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 357
+*debug* Fd 20 readFd ret 357
+解析开始
+解析完成
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 360
+*debug* Fd 22 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* write 78320 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1578830
+*debug* Current bufsize: 788903
+*debug* modchannel 20
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 58384 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 65504 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 46992 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 20 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 20
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 452
+*debug* Fd 22 readFd ret 452
+解析开始
+解析完成
+*debug* write 13588 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 26
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 26
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 360
+*debug* Fd 26 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 357
+*debug* Fd 22 readFd ret 357
+解析开始
+解析完成
+*debug* write 78320 bytes in sendData
+*debug* In Thread 2899 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1578830
+*debug* Current bufsize: 788903
+*debug* modchannel 22
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 59808 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 61232 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 41296 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 48416 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 46992 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 39872 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 42720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 41296 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 45568 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 42720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 42720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 42720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 17095 bytes in HandleWrite
+*debug* modchannel 22
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 26 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 26
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 22 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 22
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 29
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 29
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 452
+*debug* Fd 29 readFd ret 452
+解析开始
+解析完成
+*debug* write 13588 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 31
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 357
+*debug* Fd 29 readFd ret 357
+解析开始
+解析完成
+*debug* write 78320 bytes in sendData
+*debug* In Thread 2901 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1578830
+*debug* Current bufsize: 788903
+*debug* modchannel 29
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 360
+*debug* Fd 31 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 58384 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 59808 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 74048 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 54112 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 48416 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 41296 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 42720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 48416 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 35600 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 46992 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 4279 bytes in HandleWrite
+*debug* modchannel 29
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 452
+*debug* Fd 29 readFd ret 452
+解析开始
+解析完成
+*debug* write 13588 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 357
+*debug* Fd 31 readFd ret 357
+解析开始
+解析完成
+*debug* write 78320 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1578830
+*debug* Current bufsize: 788903
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 360
+*debug* Fd 29 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 59808 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 74048 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 61232 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 62656 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 69776 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 51264 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 51264 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 31328 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 45568 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 45568 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 45568 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 11399 bytes in HandleWrite
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 452
+*debug* Fd 31 readFd ret 452
+解析开始
+解析完成
+*debug* write 13686 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 360
+*debug* Fd 29 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 357
+*debug* Fd 31 readFd ret 357
+解析开始
+解析完成
+*debug* write 81168 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* Current bufsize: 786055
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 58384 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 62656 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 88288 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 31328 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 89712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 25632 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 32752 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 91136 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 91136 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 2855 bytes in HandleWrite
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 29 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 29
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 452
+*debug* Fd 31 readFd ret 452
+解析开始
+解析完成
+*debug* write 13714 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 41
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 41
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 357
+*debug* Fd 41 readFd ret 357
+解析开始
+解析完成
+*debug* write 78320 bytes in sendData
+*debug* In Thread 2899 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1578830
+*debug* Current bufsize: 788903
+*debug* modchannel 41
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 360
+*debug* Fd 31 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 44
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 44
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 58384 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 66928 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 39872 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 39872 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 42720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 46992 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 39872 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 46992 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 42720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 39872 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 15671 bytes in HandleWrite
+*debug* modchannel 41
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 44 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 44
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 44
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 452
+*debug* Fd 41 readFd ret 452
+解析开始
+解析完成
+*debug* write 13714 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 357
+*debug* Fd 31 readFd ret 357
+解析开始
+解析完成
+*debug* write 76896 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* Current bufsize: 790327
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 46
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 46
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 360
+*debug* Fd 46 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 41296 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 35600 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 35600 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 39872 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 45568 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 41296 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 51264 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 45568 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 89712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 28480 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 91136 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 35600 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 25632 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 32752 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 1431 bytes in HandleWrite
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 452
+*debug* Fd 31 readFd ret 452
+解析开始
+解析完成
+*debug* write 13714 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 357
+*debug* Fd 46 readFd ret 357
+解析开始
+解析完成
+*debug* write 78320 bytes in sendData
+*debug* In Thread 2901 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1578830
+*debug* Current bufsize: 788903
+*debug* modchannel 46
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 360
+*debug* Fd 41 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 59808 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 56960 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 48416 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 31328 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 29904 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 39872 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 32752 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 35600 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 31328 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 32752 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 5703 bytes in HandleWrite
+*debug* modchannel 46
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 452
+*debug* Fd 46 readFd ret 452
+解析开始
+解析完成
+*debug* write 13671 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 357
+*debug* Fd 41 readFd ret 357
+解析开始
+解析完成
+*debug* write 75472 bytes in sendData
+*debug* In Thread 2899 send unFinish
+*debug* Current bufsize: 791751
+*debug* modchannel 41
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 360
+*debug* Fd 31 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 49840 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 59808 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 58384 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 56960 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 62656 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 48416 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 31328 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 35600 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 31328 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 38448 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 31328 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 41296 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 34183 bytes in HandleWrite
+*debug* modchannel 41
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 452
+*debug* Fd 41 readFd ret 452
+解析开始
+解析完成
+*debug* write 13723 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 357
+*debug* Fd 31 readFd ret 357
+解析开始
+解析完成
+*debug* write 74048 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* Current bufsize: 793175
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 360
+*debug* Fd 46 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 31328 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 48416 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 39872 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 86864 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 32752 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 31328 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 89712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 88288 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 28480 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 89712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 32752 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 25639 bytes in HandleWrite
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 452
+*debug* Fd 31 readFd ret 452
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 357
+*debug* Fd 31 readFd ret 357
+解析开始
+解析完成
+*debug* write 75472 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* Current bufsize: 791751
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 360
+*debug* Fd 46 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 35600 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 39872 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 45568 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 42720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 86864 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 32752 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 32752 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 31328 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 86864 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 27056 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 27056 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 91136 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 89712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 4279 bytes in HandleWrite
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 426
+*debug* Fd 31 readFd ret 426
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 357
+*debug* Fd 31 readFd ret 357
+解析开始
+解析完成
+*debug* write 136704 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* Current bufsize: 730519
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 360
+*debug* Fd 46 readFd ret 360
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 45568 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 51264 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 42720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 34176 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 27056 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 27056 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 27056 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 95408 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 29904 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 88288 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37024 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 91143 bytes in HandleWrite
+*debug* modchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 46 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 46
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 41 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 41
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 31 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 31
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 63
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 63
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 620
+*debug* Fd 63 readFd ret 620
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 579
+*debug* Fd 63 readFd ret 579
+解析开始
+解析完成
+*debug* write 60716 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1614038
+*debug* Current bufsize: 806507
+*debug* modchannel 63
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 66
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 66
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 582
+*debug* Fd 66 readFd ret 582
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 62128 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 64952 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 70600 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 42360 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33888 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 38124 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 38124 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 43772 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 35300 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 43772 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33888 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 40948 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 38124 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 42360 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 38124 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33888 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 39536 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 45184 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 21435 bytes in HandleWrite
+*debug* modchannel 63
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 582
+*debug* Fd 63 readFd ret 582
+解析开始
+解析完成
+Not Found
+*debug* write 98 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 620
+*debug* Fd 63 readFd ret 620
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 579
+*debug* Fd 66 readFd ret 579
+解析开始
+解析完成
+*debug* write 66364 bytes in sendData
+*debug* In Thread 2899 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1602742
+*debug* Current bufsize: 800859
+*debug* modchannel 66
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 582
+*debug* Fd 63 readFd ret 582
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 71
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 71
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 57892 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 53656 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 55068 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 69188 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 40948 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 49420 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 43772 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 42360 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 43772 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 48008 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 45184 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 45184 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 43772 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 45184 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 40948 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 36712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 39536 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 255 bytes in HandleWrite
+*debug* modchannel 66
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 582
+*debug* Fd 66 readFd ret 582
+解析开始
+解析完成
+Not Found
+*debug* write 98 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 72
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 72
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 475
+*debug* Fd 72 readFd ret 475
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 74
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 74
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 406
+*debug* Fd 72 readFd ret 406
+解析开始
+解析完成
+*debug* write 79296 bytes in sendData
+*debug* In Thread 2901 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1576878
+*debug* Current bufsize: 787927
+*debug* modchannel 72
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 409
+*debug* Fd 74 readFd ret 409
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 70800 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 60888 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 42480 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 89208 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 89208 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 89208 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 87792 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 89208 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 89208 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 79927 bytes in HandleWrite
+*debug* modchannel 72
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 620
+*debug* Fd 66 readFd ret 620
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 71 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 71
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 71
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 579
+*debug* Fd 63 readFd ret 579
+解析开始
+解析完成
+*debug* write 77660 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* Current bufsize: 789563
+*debug* modchannel 63
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 78
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 78
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 582
+*debug* Fd 66 readFd ret 582
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 50832 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 53656 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 59304 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 48008 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33888 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 36712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 35300 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 31064 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 35300 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 31064 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 36712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33888 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 39536 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 31064 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 38124 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 31064 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 38124 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33888 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 40948 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 31064 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 20023 bytes in HandleWrite
+*debug* modchannel 63
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 582
+*debug* Fd 63 readFd ret 582
+解析开始
+解析完成
+Not Found
+*debug* write 98 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 80
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 80
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 254
+*debug* Fd 80 readFd ret 254
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 80 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 80
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 82
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 82
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 502
+*debug* Fd 82 readFd ret 502
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 464
+*debug* Fd 82 readFd ret 464
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 85
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 85
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 461
+*debug* Fd 85 readFd ret 461
+解析开始
+解析完成
+*debug* write 53920 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1627630
+*debug* Current bufsize: 813303
+*debug* modchannel 85
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 94360 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 184676 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 156368 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 194112 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 183787 bytes in HandleWrite
+*debug* modchannel 85
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 87
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 87
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 881
+*debug* Fd 87 readFd ret 881
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 89
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 89
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 840
+*debug* Fd 89 readFd ret 840
+解析开始
+解析完成
+*debug* write 46596 bytes in sendData
+*debug* In Thread 2900 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1642278
+*debug* Current bufsize: 820627
+*debug* modchannel 89
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 91
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 91
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 843
+*debug* Fd 91 readFd ret 843
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 40948 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 43772 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 464
+*debug* Fd 85 readFd ret 464
+解析开始
+解析完成
+Not Found
+*debug* write 98 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 49420 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 50832 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 55068 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 45184 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 49420 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 48008 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 57892 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 57892 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 46596 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 56480 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 50832 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 49420 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 49420 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 53656 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* write 15787 bytes in HandleWrite
+*debug* modchannel 89
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 843
+*debug* Fd 89 readFd ret 843
+解析开始
+解析完成
+Not Found
+*debug* write 98 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 87 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 87
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 91 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 91
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 2
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 89 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 89
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 93
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 93
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 929
+*debug* Fd 93 readFd ret 929
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 888
+*debug* Fd 93 readFd ret 888
+解析开始
+解析完成
+*debug* write 60716 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1614038
+*debug* Current bufsize: 806507
+*debug* modchannel 93
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 96
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 96
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 891
+*debug* Fd 96 readFd ret 891
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 62128 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 59304 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 53656 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 55068 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 35300 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 38124 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 36712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 32476 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 35300 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 36712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 39536 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33888 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 36712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 50832 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 35300 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 36712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 32476 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 36712 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 39536 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 20023 bytes in HandleWrite
+*debug* modchannel 93
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 891
+*debug* Fd 93 readFd ret 891
+解析开始
+解析完成
+Not Found
+*debug* write 98 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 93 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 93
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 96 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 96
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 85 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 85
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 82 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 82
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 2
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 72 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 72
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 74 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 74
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 98
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 98
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 594
+*debug* Fd 98 readFd ret 594
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 101
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 101
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 551
+*debug* Fd 101 readFd ret 551
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 103
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 103
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 259
+*debug* Fd 103 readFd ret 259
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 101 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 101
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 98 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 98
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 PolreadFd: Connection reset by peer
+handleRead: Invalid argument
+ler Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 103 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 103
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 105
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 105
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 105 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 105
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 105
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 105
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 105
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 105 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 105
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 105
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 105
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 105
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 95
+*debug* Fd 105 readFd ret 95
+解析开始
+解析完成
+*debug* write 4159 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret -1
+*debug* Fd 105 readFd ret -1
+*debug* handleClose()
+*debug* removechannel 105
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* handleError
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 107
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 107
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 108
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 108
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 109
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 109
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 109 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 109
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped(readFd: Connection reset by peer
+handleRead: Connection reset by peer
+)
+*debug* dotasks nums 1
+*debug* ~Connection fd 109
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 109
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 109
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 110
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 110
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 108 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 108
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 108
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 109 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 109
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 109
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 108
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 108
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 108 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 108
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 108
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 108
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 108
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 47
+*debug* Fd 108 readFd ret 47
+未找到\r\n\r\n,header不完整
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret -1
+*debug* Fd 108 readFd ret -1
+*debug* handleClose()
+*debug* removechannel 108
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* handleError
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 109
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 109
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 418
+*debug* Fd 109 readFd ret 418
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 109 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 109
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 112
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 113
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 112
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 432
+*debug* Fd 112 readFd ret 432
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 113
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 363
+*debug* Fd 112 readFd ret 363
+解析开始
+解析完成
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 366
+*debug* Fd 113 readFd ret 366
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* write 77952 bytes in sendData
+*debug* In Thread 2898 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1579566
+*debug* Current bufsize: 789271
+*debug* modchannel 112
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 57072 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 54288 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 48720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 36192 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37584 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33408 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 40368 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 117
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 117
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 118
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 118
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 371
+*debug* Fd 117 readFd ret 371
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 371
+*debug* Fd 118 readFd ret 371
+解析开始
+解析完成
+*debug* write 78320 bytes in sendData
+*debug* In Thread 2901 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1578830
+*debug* Current bufsize: 788903
+*debug* modchannel 118
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 121
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 121
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 374
+*debug* Fd 121 readFd ret 374
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 123
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 123
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 475
+*debug* Fd 123 readFd ret 475
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 125
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 125
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 117 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 117
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 126
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 127
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 126
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 126 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 126
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 126
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 127
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 276
+*debug* Fd 127 readFd ret 276
+解析开始
+解析完成
+Not Found
+*debug* write 98 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 127 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 127
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 121 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 121
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 36192 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 406
+*debug* Fd 123 readFd ret 406
+解析开始
+解析完成
+*debug* write 70800 bytes in sendData
+*debug* In Thread 2899 send unFinish
+*debug* enlarge resize
+*debug* now buffer size 1593870
+*debug* Current bufsize: 796423
+*debug* modchannel 123
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 409
+*debug* Fd 125 readFd ret 409
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 48144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 34800 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 125 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 125
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33408 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 48144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 37584 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 45568 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 34800 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 46992 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 36192 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 43896 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 34800 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 43896 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 49840 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33408 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 43896 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 45312 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 40368 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 34800 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 46728 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 45568 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 34800 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 43896 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33408 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 43896 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 41296 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 33408 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 45312 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 46992 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* write 23671 bytes in HandleWrite
+*debug* modchannel 112
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 48144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 45312 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 366
+*debug* Fd 112 readFd ret 366
+解析开始
+解析完成
+Not Found
+*debug* write 98 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 49840 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 49560 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 46992 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 49840 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 46728 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 42720 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 45312 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 45312 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 44144 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 43896 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 46992 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* write 19039 bytes in HandleWrite
+*debug* modchannel 123
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 52688 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 409
+*debug* Fd 123 readFd ret 409
+解析开始
+解析完成
+Not Found
+readFd: Connection reset by peer
+handleRead: Connection reset by peer
+*debug* write 98 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 51264 bytes in HandleWrite
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* write 31335 bytes in HandleWrite
+*debug* modchannel 118
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 118 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 118
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 123 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 123
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 113 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 113
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 112 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 112
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 2
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 129
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 129
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 178
+*debug* Fd 129 readFd ret 178
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 129 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 129
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 131
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 131
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 88
+*debug* Fd 131 readFd ret 88
+解析开始
+解析完成
+*debug* write 19407 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 131 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 131
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 133
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 133
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 286
+*debug* Fd 133 readFd ret 286
+解析开始
+解析完成
+*debug* write 4159 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret -1
+*debug* Fd 133 readFd ret -1
+*debug* handleClose()
+*debug* removechannel 133
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* handleError
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasksreadFd: Connection reset by peer
+handleRead: Connection reset by peer
+readFd: Connection reset by peer
+handleRead: Connection reset by peer
+ nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 135
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 135
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 47
+*debug* Fd 135 readFd ret 47
+未找到\r\n\r\n,header不完整
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 136
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 136
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 286
+*debug* Fd 136 readFd ret 286
+解析开始
+解析完成
+*debug* write 4159 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret -1
+*debug* Fd 136 readFd ret -1
+*debug* handleClose()
+*debug* removechannel 136
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* handleError
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 138
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 139
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 138
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 9
+*debug* Fd 138 readFd ret 9
+未找到\r\n\r\n,header不完整
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 139
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 3
+*debug* Fd 139 readFd ret 3
+未找到\r\n\r\n,header不完整
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 140
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 141
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 142
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 140
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 127
+*debug* Fd 140 readFd ret 127
+未找到\r\n\r\n,header不完整
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 141
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 225
+*debug* Fd 141 readFd ret 225
+解析开始
+解析完成
+*debug* write 4159 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 142
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 156
+*debug* Fd 142 readFd ret 156
+未找到\r\n\r\n,header不完整
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret -1
+*debug* Fd 141 readFd ret -1
+*debug* handleClose()
+*debug* removechannel 141
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* handleError
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 138 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 138
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 139 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 139
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 0
+*debug* Fd 142 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 142
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 140 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 140
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 144
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 144
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 0
+*debug* Fd 144 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 144
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 144
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 144
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 144
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 392
+*debug* Fd 144 readFd ret 392
+解析开始
+解析完成
+*debug* write 4159 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 0
+*debug* Fd 144 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 144
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 146
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 146
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 293
+*debug* Fd 146 readFd ret 293
+未找到\r\n\r\n,header不完整
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 146 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 146
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 147
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 PreadFd: Connection reset by peer
+handleRead: Connection reset by peer
+readFd: Connection reset by peer
+handleRead: Connection reset by peer
+readFd: Connection reset by peer
+handleRead: Connection reset by peer
+oller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 147
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 28
+*debug* Fd 147 readFd ret 28
+未找到\r\n\r\n,header不完整
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 148
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 148
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 28
+*debug* Fd 148 readFd ret 28
+未找到\r\n\r\n,header不完整
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 149
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* In Thread 2898 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2898
+*debug* addchannel 149
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret 28
+*debug* Fd 149 readFd ret 28
+未找到\r\n\r\n,header不完整
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret -1
+*debug* Fd 147 readFd ret -1
+*debug* handleClose()
+*debug* removechannel 147
+*debug* In Thread 2900 Cross Thread RunInloop()
+*debug* handleError
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret -1
+*debug* Fd 148 readFd ret -1
+*debug* handleClose()
+*debug* removechannel 148
+*debug* In Thread 2901 Cross Thread RunInloop()
+*debug* handleError
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2898 Poller Return
+*debug* readv ret -1
+*debug* Fd 149 readFd ret -1
+*debug* handleClose()
+*debug* removechannel 149
+*debug* In Thread 2898 Cross Thread RunInloop()
+*debug* handleError
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 150
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* In Thread 2899 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2899
+*debug* addchannel 150
+*debug* epoll_wait ret 1
+*debug* In Thread 2899 Poller Return
+*debug* readv ret 0
+*debug* Fd 150 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 150
+*debug* In Thread 2899 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* In Thread 2897 Be WakeUped()
+*debug* dotasks nums 1
+*debug* ~Connection fd 150
+*debug* ~Channel()
+*debug* socket close
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 150
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* In Thread 2900 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2900
+*debug* addchannel 150
+*debug* epoll_wait ret 1
+*debug* In Thread 2900 Poller Return
+*debug* readv ret 122
+*debug* Fd 150 readFd ret 122
+解析开始
+解析完成
+*debug* write 13739 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 2897 Poller Return
+*debug* handleNewConn
+New Connection Fd 152
+*debug* getloop
+*debug* In Thread 2897 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* In Thread 2901 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 2901
+*debug* addchannel 152
+*debug* epoll_wait ret 1
+*debug* In Thread 2901 Poller Return
+*debug* readv ret 389
+*debug* Fd 152 readFd ret 389
+解析开始
+解析完成
+*debug* write 13739 bytes in sendDareadFd: Connection reset by peer
+handleRead: Connection reset by peer

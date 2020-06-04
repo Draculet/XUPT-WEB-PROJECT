@@ -47,7 +47,7 @@ class DepartmentDAO // : public Oper<Doctor>
     {
         if (conn == nullptr)
             return -1;
-        string sql = "update department set department_name=\'" + d.getDepartment_name() + "\', department_pos=\'" + d.getDepartment_pos() + "\' where department_name = \'" + d.getDepartment_name() + "\'";
+        string sql = "update department set department_pos=\'" + d.getDepartment_pos() + "\' where department_name = \'" + d.getDepartment_name() + "\'";
         printf("*debug* %s\n", sql.c_str());
         int res = mysql_query(conn,sql.c_str());
         if (res)

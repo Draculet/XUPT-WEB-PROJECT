@@ -122,15 +122,20 @@ class DepartmentOper
             string response;
             if (docs.size() != 0)
             {
+                jObj.AddEmptySubArray("department");
                 for (int i = 0; i < docs.size(); i++)
                 {
                     printf("*debug4\n");
                     char index[10];
                     memset(index, 0, sizeof(index));
                     sprintf(index, "%d", i+1);
-                    jObj.AddEmptySubObject("department" + string(index));
-                    jObj["department" + string(index)].Add("department_name", docs[i].getDepartment_name());
-                    jObj["department" + string(index)].Add("department_pos", docs[i].getDepartment_pos());
+                    CJsonObject jObj2;
+                    jObj2.Add("department_name", docs[i].getDepartment_name());
+                    jObj2.Add("department_pos", docs[i].getDepartment_pos());
+                    jObj["department"].Add(jObj2);
+                    //jObj.AddEmptySubObject("department" + string(index));
+                    //jObj["department" + string(index)].Add("department_name", docs[i].getDepartment_name());
+                    //jObj["department" + string(index)].Add("department_pos", docs[i].getDepartment_pos());
                 }
                 //printf("%s\n", jObj.ToString().c_str());
                 response = req.getResponse("HTTP/1.1", "200", "OK", "application/json", jObj.ToString());

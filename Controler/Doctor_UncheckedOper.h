@@ -147,13 +147,24 @@ class Doctor_UncheckedOper // : public Oper<Doctor>
             CJsonObject jObj;
             if (docs.size() != 0)
             {
+                jObj.AddEmptySubArray("doctor_unchecked");
                 for (int i = 0; i < docs.size(); i++)
                 {
                     printf("*debug4\n");
                     char index[10];
                     memset(index, 0, sizeof(index));
                     sprintf(index, "%d", i+1);
-                    jObj.AddEmptySubObject("doctor" + string(index));
+                    CJsonObject jObj2;
+                    jObj2.Add("doctor_name", docs[i].getDoctor_name());
+                    jObj2.Add("doctor_gender", docs[i].getDoctor_gender());
+                    jObj2.Add("department_name", docs[i].getDepartment_name());
+                    jObj2.Add("doctor_title", docs[i].getDoctor_title());
+                    jObj2.Add("doctor_photo", docs[i].getDoctor_photo());
+                    jObj2.Add("doctor_tel", docs[i].getDoctor_tel());
+                    jObj2.Add("doctor_pwd", docs[i].getDoctor_pwd());
+                    jObj2.Add("doctor_info", docs[i].getDoctor_info());
+                    jObj["doctor_unchecked"].Add(jObj2);
+                    /*jObj.AddEmptySubObject("doctor" + string(index));
                     jObj["doctor" + string(index)].Add("doctor_name", docs[i].getDoctor_name());
                     jObj["doctor" + string(index)].Add("doctor_gender", docs[i].getDoctor_gender());
                     jObj["doctor" + string(index)].Add("department_name", docs[i].getDepartment_name());
@@ -162,6 +173,7 @@ class Doctor_UncheckedOper // : public Oper<Doctor>
                     jObj["doctor" + string(index)].Add("doctor_tel", docs[i].getDoctor_tel());
                     jObj["doctor" + string(index)].Add("doctor_pwd", docs[i].getDoctor_pwd());
                     jObj["doctor" + string(index)].Add("doctor_info", docs[i].getDoctor_info());
+                    */
                 }
                 //printf("%s\n", jObj.ToString().c_str());
                 response = req.getResponse("HTTP/1.1", "200", "OK", "application/json", jObj.ToString());

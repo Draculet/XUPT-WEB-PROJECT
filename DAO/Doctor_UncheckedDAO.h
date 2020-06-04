@@ -59,7 +59,7 @@ class Doctor_UncheckedDAO
         vector<Doctor_Unchecked> docs;
         if (conn == nullptr)
             return vector<Doctor_Unchecked>();
-        string sql = "select * from doctor where " + cond;
+        string sql = "select * from doctor_unchecked where " + cond;
         printf("*debug* %s\n", sql.c_str());
         int res = mysql_query( conn, sql.c_str() );
         if (res)

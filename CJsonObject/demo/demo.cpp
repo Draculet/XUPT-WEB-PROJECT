@@ -47,11 +47,11 @@ int main()
      oJson.AddEmptySubObject("depend");
      oJson["depend"].Add("nebula", "https://github.com/Bwar/Nebula");
      oJson["depend"].AddEmptySubArray("bootstrap");
-     oJson["depend"]["bootstrap"].Add("BEACON");
-     oJson["depend"]["bootstrap"].Add("LOGIC");
-     oJson["depend"]["bootstrap"].Add("LOGGER");
-     oJson["depend"]["bootstrap"].Add("INTERFACE");
-     oJson["depend"]["bootstrap"].Add("ACCESS");
+     oJson["depend"]["bootstrap"].Add("BEACON", "aa");
+     oJson["depend"]["bootstrap"].Add("LOGIC", "aa");
+     oJson["depend"]["bootstrap"].Add("LOGGER", "aa");
+     oJson["depend"]["bootstrap"].Add("INTERFACE", "aa");
+     oJson["depend"]["bootstrap"].Add("ACCESS", "aa");
      std::cout << oJson.ToString() << std::endl;
      std::cout << "-------------------------------------------------------------------" << std::endl;
      std::cout << oJson.ToFormattedString() << std::endl;

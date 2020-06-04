@@ -122,15 +122,20 @@ class NoticeOper
             string response;
             if (docs.size() != 0)
             {
+                jObj.AddEmptySubArray("notice");
                 for (int i = 0; i < docs.size(); i++)
                 {
                     printf("*debug4\n");
                     char index[10];
                     memset(index, 0, sizeof(index));
                     sprintf(index, "%d", i+1);
-                    jObj.AddEmptySubObject("notice" + string(index));
-                    jObj["notice" + string(index)].Add("notice_msg", docs[i].getNotice_msg());
-                    jObj["notice" + string(index)].Add("notice_pic", docs[i].getNotice_pic());
+                    //jObj.AddEmptySubObject("notice" + string(index));
+                    CJsonObject jObj2;
+                    //jObj["notice" + string(index)].Add("notice_msg", docs[i].getNotice_msg());
+                    //jObj["notice" + string(index)].Add("notice_pic", docs[i].getNotice_pic());
+                    jObj2.Add("notice_msg", docs[i].getNotice_msg());
+                    jObj2.Add("notice_pic", docs[i].getNotice_pic());
+                    jObj["notice"].Add(jObj2);
                 }
                 //printf("%s\n", jObj.ToString().c_str());
                 response = req.getResponse("HTTP/1.1", "200", "OK", "application/json", jObj.ToString());

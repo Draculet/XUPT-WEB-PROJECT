@@ -1,0 +1,6201 @@
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+*debug* addchannel 14
+*debug* wakeupchannel add
+*debug* addchannel 15
+*debug* Server Start
+*debug* addchannel 16
+*debug* addchannel 19
+*debug* wakeupchannel add
+*debug* addchannel 20
+*debug* addchannel 22
+*debug* wakeupchannel add
+*debug* addchannel 23
+*debug* addchannel 25
+*debug* wakeupchannel add
+*debug* addchannel 26
+*debug* addchannel 28
+*debug* wakeupchannel add
+*debug* addchannel 29
+*debug* epoll_wait ret 1
+*debug* In Thread 24572 Poller Return
+*debug* handleNewConn
+New Connection Fd 30
+*debug* getloop
+*debug* In Thread 24572 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 24575 Poller Return
+*debug* In Thread 24575 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 24575
+*debug* addchannel 30
+*debug* epoll_wait ret 1
+*debug* In Thread 24575 Poller Return
+*debug* readv ret 426
+*debug* Fd 30 readFd ret 426
+Header:
+POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 0460cd7e-b89d-4dea-b74d-80143d1fb71c
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 32
+
+{"department_name": "呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 0460cd7e-b89d-4dea-b74d-80143d1fb71c
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 32
+
+remain: {"department_name": "呼吸科"}
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:32
+Content-Type:application/json
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:0460cd7e-b89d-4dea-b74d-80143d1fb71c
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+*debug* select * from doctor where department_name = '呼吸科'
+*debug4
+*debug4
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 595
+
+{"doctor1":{"doctor_id":10039,"doctor_name":"中文医生测试","doctor_gender":2,"department_name":"呼吸科","doctor_title":"医生头衔","doctor_photo":"www.url.com","doctor_tel":"16661666","doctor_pwd":"e10adc3949ba59abbe56e057f20f883e","doctor_info":"医生信息","doctor_quota":35},"doctor2":{"doctor_id":10040,"doctor_name":"李默更换到呼吸科","doctor_gender":1,"department_name":"呼吸科","doctor_title":"主任医生","doctor_photo":"www.url.com","doctor_tel":"13543456333","doctor_pwd":"e10adc3949ba59abbe56e057f20f883e","doctor_info":"介绍在这里","doctor_quota":35}}
+*debug* write 904 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 24575 Poller Return
+*debug* readv ret 426
+*debug* Fd 30 readFd ret 426
+Header:
+POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 70f285fb-5d14-4628-8389-5bc9a859dcd4
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 32
+
+{"department_name": "呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 70f285fb-5d14-4628-8389-5bc9a859dcd4
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 32
+
+remain: {"department_name": "呼吸科"}
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:32
+Content-Type:application/json
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:70f285fb-5d14-4628-8389-5bc9a859dcd4
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+*debug* select * from doctor where department_name = '呼吸科'
+*debug4
+*debug4
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 595
+
+{"doctor1":{"doctor_id":10039,"doctor_name":"中文医生测试","doctor_gender":2,"department_name":"呼吸科","doctor_title":"医生头衔","doctor_photo":"www.url.com","doctor_tel":"16661666","doctor_pwd":"e10adc3949ba59abbe56e057f20f883e","doctor_info":"医生信息","doctor_quota":35},"doctor2":{"doctor_id":10040,"doctor_name":"李默更换到呼吸科","doctor_gender":1,"department_name":"呼吸科","doctor_title":"主任医生","doctor_photo":"www.url.com","doctor_tel":"13543456333","doctor_pwd":"e10adc3949ba59abbe56e057f20f883e","doctor_info":"介绍在这里","doctor_quota":35}}
+*debug* write 904 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 24575 Poller Return
+*debug* readv ret 355
+*debug* Fd 30 readFd ret 355
+Header:
+POST /xuptcd/notice/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 39f34392-2e56-4d0a-a8a1-d4c179257474
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/notice/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 39f34392-2e56-4d0a-a8a1-d4c179257474
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:0
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:39f34392-2e56-4d0a-a8a1-d4c179257474
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+*debug* select * from notice
+*debug4
+*debug4
+*debug4
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 219
+
+{"notice1":{"notice_msg":"李默转到呼吸科","notice_pic":"www.pic.com"},"notice2":{"notice_msg":"第一条通知","notice_pic":"准备删掉"},"notice3":{"notice_msg":"第一条通知","notice_pic":"准备删掉"}}
+*debug* write 528 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 24575 Poller Return
+*debug* readv ret 0
+*debug* Fd 30 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 30
+*debug* In Thread 24575 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 24572 Poller Return
+*debug* In Thread 24572 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 24572 Poller Return
+*debug* handleNewConn
+New Connection Fd 31
+*debug* getloop
+*debug* In Thread 24572 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 24576 Poller Return
+*debug* In Thread 24576 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 24576
+*debug* addchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 24576 Poller Return
+*debug* readv ret 426
+*debug* Fd 31 readFd ret 426
+Header:
+POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 0e9e5582-574d-42a7-8d69-e3d7cd315b99
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 32
+
+{"department_name": "呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 0e9e5582-574d-42a7-8d69-e3d7cd315b99
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 32
+
+remain: {"department_name": "呼吸科"}
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:32
+Content-Type:application/json
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:0e9e5582-574d-42a7-8d69-e3d7cd315b99
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+*debug* addchannel 14
+*debug* wakeupchannel add
+*debug* addchannel 15
+*debug* Server Start
+*debug* addchannel 16
+*debug* addchannel 19
+*debug* wakeupchannel add
+*debug* addchannel 20
+*debug* addchannel 22
+*debug* wakeupchannel add
+*debug* addchannel 23
+*debug* addchannel 25
+*debug* wakeupchannel add
+*debug* addchannel 26
+*debug* addchannel 28
+*debug* wakeupchannel add
+*debug* addchannel 29
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* handleNewConn
+New Connection Fd 30
+*debug* getloop
+*debug* In Thread 13121 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* In Thread 13128 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13128
+*debug* addchannel 30
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 359
+*debug* Fd 30 readFd ret 359
+Header:
+POST /xuptcd/department/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: e8a3e0b2-1bdb-41fc-a192-b0f15d5295ce
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: e8a3e0b2-1bdb-41fc-a192-b0f15d5295ce
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:0
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:e8a3e0b2-1bdb-41fc-a192-b0f15d5295ce
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+*debug* select * from department
+*debug4
+*debug4
+*debug4
+*debug4
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 307
+
+{"department":[{"department_name":"内科","department_pos":"A栋401"},{"department_name":"外科","department_pos":"安悦北1120"},{"department_name":"呼吸科","department_pos":"西安邮电大学附属医院"},{"department_name":"骨科","department_pos":"西安邮电大学附属医院骨科诊室"}]}
+*debug* write 616 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 355
+*debug* Fd 30 readFd ret 355
+Header:
+POST /xuptcd/doctor/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 6980bb7f-5b06-471e-b80d-77e8de2cf373
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/doctor/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 6980bb7f-5b06-471e-b80d-77e8de2cf373
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:0
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:6980bb7f-5b06-471e-b80d-77e8de2cf373
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+Error: Callback Not FoundToSend: HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 90
+
+<!DOCTYPE><html><head><title>404 Not Found</title></head><body>404 Not Found</body></html>
+*debug* write 161 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 421
+*debug* Fd 30 readFd ret 421
+Header:
+POST /xuptcd/doctor/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 4dc152d5-c199-4dd5-82f1-77eef9db0b1f
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 33
+
+{"department_name" : "呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/doctor/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 4dc152d5-c199-4dd5-82f1-77eef9db0b1f
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 33
+
+remain: {"department_name" : "呼吸科"}
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:33
+Content-Type:application/json
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:4dc152d5-c199-4dd5-82f1-77eef9db0b1f
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+Error: Callback Not FoundToSend: HTTP/1.1 404 Not Found
+Content-Type: text/html
+Content-Length: 90
+
+<!DOCTYPE><html><head><title>404 Not Found</title></head><body>404 Not Found</body></html>
+*debug* write 161 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 427
+*debug* Fd 30 readFd ret 427
+Header:
+POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: d84a97a1-e05f-43cb-8b3e-ecb50e137123
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 33
+
+{"department_name" : "呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: d84a97a1-e05f-43cb-8b3e-ecb50e137123
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 33
+
+remain: {"department_name" : "呼吸科"}
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:33
+Content-Type:application/json
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:d84a97a1-e05f-43cb-8b3e-ecb50e137123
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+*debug* select * from doctor where department_name = '呼吸科'
+*debug4
+*debug4
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 737
+
+{"doctor":[{"doctor_id":10039,"doctor_name":"中文医生测试","doctor_gender":2,"department_name":"呼吸科","doctor_title":"医生头衔","doctor_photo":"https://kano.guahao.cn/5jl2688095_image140.jpg?timestamp=1555650388603","doctor_tel":"16661666","doctor_pwd":"e10adc3949ba59abbe56e057f20f883e","doctor_info":"医生信息","doctor_quota":35},{"doctor_id":10040,"doctor_name":"李默更换到呼吸科","doctor_gender":1,"department_name":"呼吸科","doctor_title":"主任医生","doctor_photo":"'http://qax0m7o02.bkt.clouddn.com/image/png/%E5%8C%BB%E7%94%9F%E9%BB%98%E8%AE%A4%E5%A4%B4%E5%83%8F.png'","doctor_tel":"13543456333","doctor_pwd":"e10adc3949ba59abbe56e057f20f883e","doctor_info":"介绍在这里","doctor_quota":35}]}
+*debug* write 1046 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 424
+*debug* Fd 30 readFd ret 424
+Header:
+POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: fa234465-3eea-45fc-8c10-8e896f325b68
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 30
+
+{"department_name" : "骨科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: fa234465-3eea-45fc-8c10-8e896f325b68
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 30
+
+remain: {"department_name" : "骨科"}
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:30
+Content-Type:application/json
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:fa234465-3eea-45fc-8c10-8e896f325b68
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+*debug* select * from doctor where department_name = '骨科'
+*debug4
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 310
+
+{"doctor":[{"doctor_id":10034,"doctor_name":"小刘","doctor_gender":0,"department_name":"骨科","doctor_title":"骨科专家","doctor_photo":"https://kano.guahao.cn/5jl2688095_image140.jpg","doctor_tel":"18681817389","doctor_pwd":"e10adc3949ba59abbe56e057f20f883e","doctor_info":"帅哥","doctor_quota":35}]}
+*debug* write 619 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 424
+*debug* Fd 30 readFd ret 424
+Header:
+POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 608c5a33-139f-4021-9d76-4aa188c7e140
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 30
+
+{"department_name" : "内科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/doctor/selectDepart HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 608c5a33-139f-4021-9d76-4aa188c7e140
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 30
+
+remain: {"department_name" : "内科"}
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:30
+Content-Type:application/json
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:608c5a33-139f-4021-9d76-4aa188c7e140
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+*debug* select * from doctor where department_name = '内科'
+*debug4
+*debug4
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 673
+
+{"doctor":[{"doctor_id":10041,"doctor_name":"内科医生1","doctor_gender":1,"department_name":"内科","doctor_title":"主任医师","doctor_photo":"https://kano.guahao.cn/fMh2628745_image140.jpg","doctor_tel":"15955897605","doctor_pwd":"e10adc3949ba59abbe56e057f20f883e","doctor_info":"我是内科医生1","doctor_quota":35},{"doctor_id":10043,"doctor_name":"内科医生2","doctor_gender":1,"department_name":"内科","doctor_title":"主任医师","doctor_photo":"https://kano.guahao.cn/dHd58089636_image140.jpg?timestamp=1582422246225","doctor_tel":"15955897609","doctor_pwd":"e10adc3949ba59abbe56e057f20f883e","doctor_info":"我是内科医生2","doctor_quota":35}]}
+*debug* write 982 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 418
+*debug* Fd 30 readFd ret 418
+Header:
+POST /xuptcd/notice/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 9eb133f2-c1f3-4d36-b417-5401832101a4
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 30
+
+{"department_name" : "内科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/notice/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 9eb133f2-c1f3-4d36-b417-5401832101a4
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 30
+
+remain: {"department_name" : "内科"}
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:30
+Content-Type:application/json
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:9eb133f2-c1f3-4d36-b417-5401832101a4
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+ToSend: HTTP/1.1 403 Forbidden
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 38
+
+{"errCode":2,"errMsg":"Error Requset"}
+*debug* write 353 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 355
+*debug* Fd 30 readFd ret 355
+Header:
+POST /xuptcd/notice/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: fbe3c79f-03b7-4667-99d5-00e8988f4151
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/notice/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: fbe3c79f-03b7-4667-99d5-00e8988f4151
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:0
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:fbe3c79f-03b7-4667-99d5-00e8988f4151
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+*debug* select * from notice
+*debug4
+*debug4
+*debug4
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 200
+
+{"notice":[{"notice_msg":"李默转到呼吸科","notice_pic":"www.pic.com"},{"notice_msg":"第一条通知","notice_pic":"准备删掉"},{"notice_msg":"第一条通知","notice_pic":"准备删掉"}]}
+*debug* write 509 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 0
+*debug* Fd 30 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 30
+*debug* In Thread 13128 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* In Thread 13121 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* handleNewConn
+New Connection Fd 31
+*debug* getloop
+*debug* In Thread 13121 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* In Thread 13129 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13129
+*debug* addchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 523
+*debug* Fd 31 readFd ret 523
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 2
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 2
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:2
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*debug* delete from department where department_name = ''
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 523
+*debug* Fd 31 readFd ret 523
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 2
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 2
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:2
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*debug* delete from department where department_name = ''
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 523
+*debug* Fd 31 readFd ret 523
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 2
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 2
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:2
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*debug* delete from department where department_name = ''
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 523
+*debug* Fd 31 readFd ret 523
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 2
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 2
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:2
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*debug* delete from department where department_name = ''
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 550
+*debug* Fd 31 readFd ret 550
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 28
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"外科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 28
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"外科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:28
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*debug* delete from department where department_name = '外科'
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 550
+*debug* Fd 31 readFd ret 550
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 28
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"内科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 28
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"内科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:28
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*debug* delete from department where department_name = '内科'
+*ERROR* Cannot delete or update a parent row: a foreign key constraint fails (`xuptcd_db`.`doctor`, CONSTRAINT `doctor_department` FOREIGN KEY (`department_name`) REFERENCES `department` (`department_name`) ON UPDATE CASCADE)
+ToSend: HTTP/1.1 403 Forbidden
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 38
+
+{"errCode":1,"errMsg":"Delete Failed"}
+*debug* write 353 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 550
+*debug* Fd 31 readFd ret 550
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 28
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"内科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 28
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"内科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:28
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*debug* delete from department where department_name = '内科'
+*ERROR* Cannot delete or update a parent row: a foreign key constraint fails (`xuptcd_db`.`doctor`, CONSTRAINT `doctor_department` FOREIGN KEY (`department_name`) REFERENCES `department` (`department_name`) ON UPDATE CASCADE)
+ToSend: HTTP/1.1 403 Forbidden
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 38
+
+{"errCode":1,"errMsg":"Delete Failed"}
+*debug* write 353 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 553
+*debug* Fd 31 readFd ret 553
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"呼吸科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:31
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 553
+*debug* Fd 31 readFd ret 553
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"呼吸科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:31
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 553
+*debug* Fd 31 readFd ret 553
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"呼吸科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:31
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 553
+*debug* Fd 31 readFd ret 553
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"呼吸科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:31
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 553
+*debug* Fd 31 readFd ret 553
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"呼吸科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:31
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 534
+*debug* Fd 31 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 553
+*debug* Fd 31 readFd ret 553
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"呼吸科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 31
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"呼吸科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:31
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 0
+*debug* Fd 31 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 31
+*debug* In Thread 13129 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* In Thread 13121 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* handleNewConn
+New Connection Fd 32
+*debug* getloop
+*debug* In Thread 13121 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* In Thread 13130 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13130
+*debug* addchannel 32
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* readv ret 537
+*debug* Fd 32 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* readv ret 588
+*debug* Fd 32 readFd ret 588
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"外科","department_pos":"计算机学院"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"外科","department_pos":"计算机学院"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:63
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 201 Created
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 345 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* readv ret 537
+*debug* Fd 32 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* readv ret 588
+*debug* Fd 32 readFd ret 588
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"外科","department_pos":"计算机学院"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"外科","department_pos":"计算机学院"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:63
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 201 Created
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 345 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* readv ret 537
+*debug* Fd 32 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* readv ret 588
+*debug* Fd 32 readFd ret 588
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"外科","department_pos":"计算机学院"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"外科","department_pos":"计算机学院"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:63
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 201 Created
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 345 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* readv ret 0
+*debug* Fd 32 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 32
+*debug* In Thread 13130 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* In Thread 13121 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* handleNewConn
+New Connection Fd 33
+*debug* getloop
+*debug* In Thread 13121 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* In Thread 13131 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13131
+*debug* addchannel 33
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 537
+*debug* Fd 33 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 588
+*debug* Fd 33 readFd ret 588
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"外科","department_pos":"计算机学院"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"外科","department_pos":"计算机学院"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:63
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 201 Created
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 345 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 537
+*debug* Fd 33 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 588
+*debug* Fd 33 readFd ret 588
+Header:
+POST /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"外科","department_pos":"计算机学院"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"外科","department_pos":"计算机学院"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:63
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 537
+*debug* Fd 33 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 581
+*debug* Fd 33 readFd ret 581
+Header:
+POST /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 56
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"内科1","department_pos":"A栋401"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 56
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"内科1","department_pos":"A栋401"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:56
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 0
+*debug* Fd 33 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 33
+*debug* In Thread 13131 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* In Thread 13121 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* handleNewConn
+New Connection Fd 34
+*debug* getloop
+*debug* In Thread 13121 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* In Thread 13128 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13128
+*debug* addchannel 34
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 537
+*debug* Fd 34 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 588
+*debug* Fd 34 readFd ret 588
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"外科","department_pos":"计算机学院"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"外科","department_pos":"计算机学院"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:63
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 201 Created
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 345 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 534
+*debug* Fd 34 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 550
+*debug* Fd 34 readFd ret 550
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 28
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"内科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 28
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"内科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:28
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 537
+*debug* Fd 34 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 581
+*debug* Fd 34 readFd ret 581
+Header:
+POST /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 56
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"内科1","department_pos":"A栋401"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 56
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"内科1","department_pos":"A栋401"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:56
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 0
+*debug* Fd 34 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 34
+*debug* In Thread 13128 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* In Thread 13121 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* handleNewConn
+New Connection Fd 35
+*debug* getloop
+*debug* In Thread 13121 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* In Thread 13129 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13129
+*debug* addchannel 35
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 537
+*debug* Fd 35 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 588
+*debug* Fd 35 readFd ret 588
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"外科","department_pos":"计算机学院"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"外科","department_pos":"计算机学院"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:63
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 201 Created
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 345 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13129 Poller Return
+*debug* readv ret 0
+*debug* Fd 35 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 35
+*debug* In Thread 13129 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* In Thread 13121 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* handleNewConn
+New Connection Fd 36
+*debug* getloop
+*debug* In Thread 13121 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* In Thread 13130 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13130
+*debug* addchannel 36
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* readv ret 537
+*debug* Fd 36 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* readv ret 580
+*debug* Fd 36 readFd ret 580
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 55
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"内科","department_pos":"A栋401"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 55
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"内科","department_pos":"A栋401"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:55
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 201 Created
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 345 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13130 Poller Return
+*debug* readv ret 0
+*debug* Fd 36 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 36
+*debug* In Thread 13130 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* In Thread 13121 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* handleNewConn
+New Connection Fd 37
+*debug* getloop
+*debug* In Thread 13121 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* In Thread 13131 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13131
+*debug* addchannel 37
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 537
+*debug* Fd 37 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 588
+*debug* Fd 37 readFd ret 588
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"外科","department_pos":"计算机学院"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 63
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"外科","department_pos":"计算机学院"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:63
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 201 Created
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 345 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 537
+*debug* Fd 37 readFd ret 537
+Header:
+OPTIONS /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 581
+*debug* Fd 37 readFd ret 581
+Header:
+POST /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 56
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"内科1","department_pos":"A栋401"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 56
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"内科1","department_pos":"A栋401"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:56
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 534
+*debug* Fd 37 readFd ret 534
+Header:
+OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 550
+*debug* Fd 37 readFd ret 550
+Header:
+POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 28
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"内科"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/del HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 28
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"内科"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:28
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13131 Poller Return
+*debug* readv ret 0
+*debug* Fd 37 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 37
+*debug* In Thread 13131 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* In Thread 13121 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 13121 Poller Return
+*debug* handleNewConn
+New Connection Fd 38
+*debug* getloop
+*debug* In Thread 13121 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* In Thread 13128 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 13128
+*debug* addchannel 38
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 535
+*debug* Fd 38 readFd ret 535
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Schedule
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Schedule
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Schedule
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 581
+*debug* Fd 38 readFd ret 581
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 58
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Schedule
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"departmentName":"内科","workday":1,"doctorId":"10041"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 58
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Schedule
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"departmentName":"内科","workday":1,"doctorId":"10041"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:58
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Schedule
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 201 Created
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 345 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 535
+*debug* Fd 38 readFd ret 535
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Schedule
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Schedule
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Schedule
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 584
+*debug* Fd 38 readFd ret 584
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 61
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Schedule
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"departmentName":"呼吸科","workday":5,"doctorId":"10039"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 61
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Schedule
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"departmentName":"呼吸科","workday":5,"doctorId":"10039"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:61
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Schedule
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 201 Created
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 345 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 535
+*debug* Fd 38 readFd ret 535
+Header:
+OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Schedule
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Schedule
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Cache-Control:no-cache
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Schedule
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*WARNNING* Run out of Conn
+mysql_real_connect Failed
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 13128 Poller Return
+*debug* readv ret 581
+*debug* Fd 38 readFd ret 581
+Header:
+POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 58
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Schedule
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"departmentName":"内科","workday":1,"doctorId":"10041"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/insert HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 58
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Schedule
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"departmentName":"内科","workday":1,"doctorId":"10041"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Cache-Control:no-cache
+Connection:keep-alive
+Content-Length:58
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Pragma:no-cache
+Referer:http://localhost:3000/Admin/Schedule
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+mysql_real_connect Success
+*debug* addchannel 14
+*debug* wakeupchannel add
+*debug* addchannel 15
+*debug* Server Start
+*debug* addchannel 16
+*debug* addchannel 19
+*debug* wakeupchannel add
+*debug* addchannel 20
+*debug* addchannel 22
+*debug* wakeupchannel add
+*debug* addchannel 23
+*debug* addchannel 25
+*debug* wakeupchannel add
+*debug* addchannel 26
+*debug* addchannel 28
+*debug* wakeupchannel add
+*debug* addchannel 29
+*debug* epoll_wait ret 1
+*debug* In Thread 18148 Poller Return
+*debug* handleNewConn
+New Connection Fd 30
+*debug* getloop
+*debug* In Thread 18148 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 18150 Poller Return
+*debug* In Thread 18150 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 18150
+*debug* addchannel 30
+*debug* epoll_wait ret 1
+*debug* In Thread 18150 Poller Return
+*debug* readv ret 494
+*debug* Fd 30 readFd ret 494
+Header:
+OPTIONS /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: OPTIONS /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:3000
+Sec-Fetch-Mode: cors
+Referer: http://localhost:3000/Admin/Department
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Access-Control-Request-Headers:content-type
+Access-Control-Request-Method:POST
+Connection:keep-alive
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Referer:http://localhost:3000/Admin/Department
+Sec-Fetch-Mode:cors
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+ToSend: HTTP/1.1 200 OK
+Access-Control-Allow-Methods: OPTIONS, GET, HEAD, POST
+Server: My Server
+Content-Length: 0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Headers: X-Requested-With, accept, origin, content-type
+
+
+*debug* write 263 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 18150 Poller Return
+*debug* readv ret 537
+*debug* Fd 30 readFd ret 537
+Header:
+POST /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 55
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+{"department_name":"外科","department_pos":"B栋401"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/department/modify HTTP/1.1
+Host: 49.233.166.221:8832
+Connection: keep-alive
+Content-Length: 55
+Accept: application/json, text/plain, */*
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+Content-Type: application/json;charset=UTF-8
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Admin/Department
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+
+remain: {"department_name":"外科","department_pos":"B栋401"}
+Accept:application/json, text/plain, */*
+Accept-Encoding:gzip, deflate
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:55
+Content-Type:application/json;charset=UTF-8
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Referer:http://localhost:3000/Admin/Department
+User-Agent:Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+error
+in control
+*debug* update department set department_pos='B栋401' where department_name = '外科'
+ToSend: HTTP/1.1 200 OK
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 32
+
+{"errCode":0,"errMsg":"Success"}
+*debug* write 340 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 18150 Poller Return
+*debug* readv ret 0
+*debug* Fd 30 readFd ret 0
+*debug* handleClose()
+*debug* removechannel 30
+*debug* In Thread 18150 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 18148 Poller Return
+*debug* In Thread 18148 Be WakeUped()
+*debug* dotasks nums 1
+*debug* epoll_wait ret 1
+*debug* In Thread 18148 Poller Return
+*debug* handleNewConn
+New Connection Fd 31
+*debug* getloop
+*debug* In Thread 18148 Cross Thread RunInloop()
+*debug* epoll_wait ret 1
+*debug* In Thread 18151 Poller Return
+*debug* In Thread 18151 Be WakeUped()
+*debug* dotasks nums 1
+*debug* hanleEstablish 18151
+*debug* addchannel 31
+*debug* epoll_wait ret 1
+*debug* In Thread 18151 Poller Return
+*debug* readv ret 442
+*debug* Fd 31 readFd ret 442
+Header:
+POST /xuptcd/notice/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 5fba1936-e36d-4ea8-80d7-6d766afc350d
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 54
+
+{"department_name":"外科","department_pos":"西安"}
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/notice/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+Content-Type: application/json
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 5fba1936-e36d-4ea8-80d7-6d766afc350d
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 54
+
+remain: {"department_name":"外科","department_pos":"西安"}
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:54
+Content-Type:application/json
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:5fba1936-e36d-4ea8-80d7-6d766afc350d
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
+error
+in control
+ToSend: HTTP/1.1 403 Forbidden
+Server: My Server
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: *
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: *
+Access-Control-Allow-Credentials: true
+Connection: keep-alive
+Transfer-Encoding: chunkedContent-Type: application/json
+Content-Length: 38
+
+{"errCode":2,"errMsg":"Error Requset"}
+*debug* write 353 bytes in sendData
+*debug* Write Finish
+*debug* epoll_wait ret 1
+*debug* In Thread 18151 Poller Return
+*debug* readv ret 355
+*debug* Fd 31 readFd ret 355
+Header:
+POST /xuptcd/notice/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 9c499dad-5459-4d63-a5ca-eb1d74769b71
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+debug
+headpart: POST /xuptcd/notice/select HTTP/1.1
+Origin: http://localhost:3000
+Referer: http://localhost:3000/Patient/Home
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: PostmanRuntime/7.25.0
+Accept: */*
+Postman-Token: 9c499dad-5459-4d63-a5ca-eb1d74769b71
+Host: 49.233.166.221:8832
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 0
+
+remain: 
+Accept:*/*
+Accept-Encoding:gzip, deflate, br
+Accept-Language:zh-CN,zh;q=0.9
+Connection:keep-alive
+Content-Length:0
+Host:49.233.166.221:8832
+Origin:http://localhost:3000
+Postman-Token:9c499dad-5459-4d63-a5ca-eb1d74769b71
+Referer:http://localhost:3000/Patient/Home
+User-Agent:PostmanRuntime/7.25.0
